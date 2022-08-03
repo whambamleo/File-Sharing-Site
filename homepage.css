@@ -1,0 +1,53 @@
+body {
+    background-color: mintcream;
+}
+#logo {
+    position: absolute;
+    height: 128px;
+    width: 128px;
+}
+
+h1{
+    font-family: Arial;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+
+#firstBox {
+    width: 1080px;
+    height: 240px;
+    border: 3px solid #F2F5C8;
+    background-color: #F2F5C8;
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+#secondBox {
+    width: 1080px;
+    height: 240px;
+    border: 3px solid  #A3E4DB;
+    background-color: #A3E4DB;
+    position: absolute;
+    margin-top: 425px;
+    border-radius: 20px;
+    padding: 10px;
+
+
+}
+#thirdBox {
+    width: 1080px;
+    height: 240px;
+    border: 3px solid  #FED1EF;
+    background-color: #FED1EF;
+    position: absolute;
+    margin-top: 700px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+

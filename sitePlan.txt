@@ -1,0 +1,18 @@
+Feel free to change up the plan, just keep me posted
+
+internal file structure:
+/media/filesharing/users.txt
+/media/filesharing/user/Alpha/
+/media/filesharing/user/Bravo/
+/media/filesharing/user/Charlie/
+
+
+Start with login page: form where user can type name, and if it matches name in /media/filesharing/users.txt then 
+pass with a GET to user homepage (or use a session variable?)
+
+
+
+on homepage, display list of files stored in /media/filesharing/user/x
+have options to view, upload, and delete files ( https://classes.engineering.wustl.edu/cse330/index.php?title=PHP#Other_PHP_Tips )
+
+Creative: for 15 points, usually you are expected to have 2-3 features.
