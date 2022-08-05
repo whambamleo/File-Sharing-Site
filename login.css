@@ -1,5 +1,6 @@
 body {
-    background-color: mintcream;
+    background-color: #282828;
+    padding-top: 10%;
 }
 #logo {
     height: 128px;
@@ -7,10 +8,10 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 250px;
 }
 
 h1{
+    color: #FFFFFF;
     font-family: Arial;
     position: relative;
     margin-top: 0px;
@@ -26,18 +27,26 @@ h1{
 
 }
 
-submitButton{
-    display: block;
-    margin-top: 5px;
+.submitButton{
+    padding: 10px;
+    background-color: #1282F7;
+    color: #282828;
+    font-family: Arial;
+    border-radius: 10px;
+}
+
+.submitButton:hover {
+    background-color: #21C2FE;
 }
 
 #firstBox {
     margin: auto;
     text-align: center;
     font-family: Arial;
-    background-color: lightskyblue;
+    background-color: #181818;
+    color: #FFFFFF;
     border-radius: 20px;
-    padding: 5px;
+    padding: 25px;
     width: 50%;
     white-space: nowrap;
 
@@ -52,4 +61,12 @@ submitButton{
     border-radius: 20px;
     padding: 5px;
     width: 50%;
+}
+
+.inputBox {
+    background-color: #282828;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
 }
